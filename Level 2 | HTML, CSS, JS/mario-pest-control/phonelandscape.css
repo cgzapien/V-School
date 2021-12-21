@@ -1,0 +1,97 @@
+@media only screen and (min-width: 350px) {
+
+    body {
+        background-image: url(/images/mariobackground.jpeg);
+        background-size: 100%;
+    }
+    .marioTitle {
+        display: flex;
+        justify-content: center;
+        height: 100px;                                  
+    }
+    #marioHeader {
+       color: red;
+       font-size: 10px;
+       font-family: 'Super Mario 256', sans-serif
+    }
+    #headerImage {
+        size: 40px;
+    }
+    .goombaContainer {
+        position: absolute;
+        top: 700px;
+        left: 200px;
+        font-size: 20px;
+    }
+    .goombaContainer:hover {
+        border: 2px solid black;
+    }
+    #goombaTitle {
+        text-align: center;
+    }
+    #goombaImg {
+        width: 50px;
+        display: block;
+        margin: auto;
+    }
+    .bobombContainer {
+        position: absolute;
+        left: 50px;
+        font-size: 20px;
+    }
+    .bobombContainer:hover {
+        border: 2px solid black;
+    }
+    #bobombTitle {
+        text-align: center;
+    }
+    #bobombImg {
+        width: 50px;
+        display: block;
+        margin: auto;
+    }
+    .cheepContainer {
+        position: absolute;
+        right: 600px;
+        bottom: 150px;
+        font-size: 20px;
+    }
+    .cheepContainer:hover {
+        border: 2px solid black;
+    }
+    #cheepTitle {
+        text-align: center;
+    }
+    #cheepImg {
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+    #totalContainer {
+        text-align: center;
+    }
+    #contactTitle {
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    #contactUs {
+        display:inline-block;
+        vertical-align: top;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        color: black;
+    }
+    .contactInfo {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+    }
+    #totalContainer {
+        font-size: 20px;
+    }
+    #grandTotal {
+        color: yellow;
+    }
+    }

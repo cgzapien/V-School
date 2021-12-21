@@ -1,0 +1,139 @@
+  @media only screen and (max-width: 768px) {
+  .container-one> div:nth-child(1) {
+    background-color: #F5C6D6;
+    width: 100%;
+    height: 10.5%;
+    margin-bottom: 4px;
+  }
+  .container-two>  div:nth-child(1) {
+    background-color: #EE2E84;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 4px;
+
+  }
+  .container-two>  div:nth-child(2) {
+    background-color: #EE2E84;
+    width: 100%;
+    height: 10.5%;
+    margin-bottom: 4px;
+  }
+  .container-two>  div:nth-child(3) {
+    background-color: #EE2E84;
+    width: 100%;
+    height: 10.5%;
+    margin-bottom: 4px;
+  }
+  .container-two>  div:nth-child(4) {
+    background-color: #EE2E84;
+    width: 100%;
+    height: 10.5%;
+    margin-bottom: 4px;
+  }
+  .container-three>  div:nth-child(1) {
+    background-color: #85CFD8;
+    width: 100%;
+    height: 10.5%;
+    margin-bottom: 4px;
+  }
+  .container-three>  div:nth-child(2) {
+    background-color: #85CFD8;
+    width: 100%;
+    height: 10.5%;
+    margin-bottom: 4px;
+  }
+   
+  .container-four>  div:nth-child(1) {
+    background-color: #8DC63F;
+    width: 100%;
+    height: 10.5%;
+    margin-bottom: 4px;
+  }
+  .container-four>  div:nth-child(2) {
+    background-color: #E76E34;
+    width: 100%;
+    height: 10.5%;
+  }
+
+* {
+  box-sizing: border-box;
+  font-size: 0px;
+}
+  }
+
+  @media only screen and (min-width: 768px) {
+
+.container-one {
+  background-color: #F5C6D6;
+  height: 25%;
+  margin-bottom: 10px;
+}
+.container-two {
+  height: 25%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-two>  div:nth-child(1) {
+  background-color: #EE2E84;
+  height: 100%;
+  width: 24%;
+}
+.container-two> div:nth-child(2) {
+  background-color: #EE2E84;
+  height: 100%;
+  width: 24%;
+}
+.container-two>  div:nth-child(3) {
+  background-color: #EE2E84;
+  height: 100%;
+  width: 24%;
+}
+.container-two> div:nth-child(4) {
+  background-color: #EE2E84;
+  height: 100%;
+  width: 24%;
+}
+
+.container-three {
+  height: 25%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-three > div:nth-child(1) {
+  background-color: #85CFD8;
+  height: 100%;
+  width: 49%;
+}
+
+.container-three > div:nth-child(2) {
+  background-color: #85CFD8;
+  height: 100%;
+  width: 49%;
+}
+
+.container-four {
+  height: 25%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-four > div:nth-child(1) {
+  background-color: #8DC63F;
+  height: 100%;
+  width: 75%;
+}
+.container-four > div:nth-child(2) {
+  background-color: #E76E34;
+  height: 100%;
+  width: 23%;
+} 
+  }
+
+  
+
+

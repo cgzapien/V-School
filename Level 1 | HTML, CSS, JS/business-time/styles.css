@@ -1,0 +1,103 @@
+* {
+    background-color: #e3dac9;
+}
+#logoTop {
+    margin-left: 48%;
+    width: 80px;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: #167c72;
+}
+a:visited {
+    text-decoration: none;
+}
+#navBar {
+    text-align: center;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+} 
+li {
+    display: inline; 
+    padding: 10px;
+    color: #167c72;
+    text-decoration: none;   
+}
+#order {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    text-decoration: none;
+    font-size: 60px;
+    margin-top: 40px;
+    color: #167c72;
+}
+.topParagraph {
+    margin-top: 150px;
+}
+.topParagraph > span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #2c212e;
+    display: block;
+    font-weight: bolder;
+}
+.topParagraph > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #2c212e;
+}
+#middleImageBorder {
+    background-color: #0b9444;
+    height: 100px;
+    margin-top: 150px;
+}
+#middleImage {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: -4px;
+}
+#middleImageBottomBorder {
+    background-color: #e31b23;
+    height: 100px;
+    margin-top: 0;
+}
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    color: #2c212e;
+}
+
+.paragraph {
+    margin-top: 300px;
+}
+.paragraph > span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: #2c212e;
+    display: block;
+}
+.paragraph > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #2c212e;
+}
+#copyright {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #00afa5;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}

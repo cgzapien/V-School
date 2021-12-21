@@ -1,0 +1,20 @@
+body {
+    background-image: url("./images/brown-1295974_1280.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.friendsListContainer {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.friend {
+    text-align: center;
+    margin-bottom: 5px;
+    border: 1px solid;
+    border-radius: 16%;
+    width: 500px;
+}

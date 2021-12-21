@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Travel Form</title>
+        <link rel="stylesheet" href="/main.css">
+    </head>
+    <body>
+        <div id="airplaneImage">
+            <img src="/images/airline-removebg-preview (1).png">
+        </div>
+        <h1 id="airline">Mohican Airways</h1>
+        <p id="intro">We at Mohican Airways, are excited for you to fly with us. In order to serve you, please provide your information.</p>
+        <form name="airlineInfo" id="airlineInfo">
+            <label>First Name:</label>
+            <input type="text" name="firstName">
+            <br>
+            <label>Last Name:</label>
+            <input type="text" name="lastName">
+            <br>
+            <label>Age:</label>
+            <input type="number" name="ageNumber">
+            <br>
+            Male <input type="radio" name="gender" id="male" value="Male">
+            Female <input type="radio" name="gender" id="female" value="Female">
+            <br>
+            <label for="destination">Destination</label>
+            <select name="destination" id="destination">
+                <option value="Cancun,Mexico" id="cancun">Cancun,Mexico</option>
+                <option value="Paris,France" id="paris">Paris,France</option>
+                <option value="Las Vegas, Nevada" id="lasvegas">Las Vegas, Nevada</option>
+            </select>
+            <br>
+            <label for="Dietary restrictions">Dietary restrictions</label>
+            <br>
+            <label><input type="checkbox" name="vegan" id="vegan" value="Vegetarian"/>Vegetarian</label>
+            <label><input type="checkbox" name="kosher" id="kosher" value="Kosher"/>Kosher</label>
+            <label><input type="checkbox" name="lactose" id="lactose" value="Lactose Free"/>Lactose Free</label>
+            <br>
+            <button type="submit" id="submit">Submit your Flight Information</button>
+        </form>
+        <script src="/main.js"></script>
+    </body>
+</html>

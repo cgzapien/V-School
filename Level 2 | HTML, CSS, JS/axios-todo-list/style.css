@@ -1,0 +1,105 @@
+body {
+    /* background: linear-gradient(180deg, #97CE4C 45.53%, #F0E14A 100%); */
+    margin: 0;
+    padding: 0;
+    /* background-image: url("/images/todo-lists-5238324_1920.jpg");
+    background-size: fixed; */
+    background: linear-gradient(180deg, #859AE4 45.53%, #4A78F0 100%);
+}
+.todoHeader {
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-size: 85px;
+    text-shadow: 2px 2px white;
+    margin-top: 25px;
+}
+
+.todoForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-bottom: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.formInput {
+    width: 50%;
+    padding: 6px 4px;
+    border-radius: 4px;
+    border: none;
+    margin: 5px;
+}
+#addButton {
+    padding: 7px 14px;
+    background-color: #00b0ff;
+    border: none;
+    border-radius: 4px;
+    color: #fafafa;
+    transition: .2s ease;
+}
+#addButton:hover{
+    background-color: blue;
+}
+/* .formInput {
+    background-image: none;
+} */
+.newTodoList {
+    text-align: center;
+    padding: 0;
+    /* text-shadow: 2px 2px black; */
+}
+.newList {
+    /* background-color: aqua; */
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+}
+/* .newList:hover {
+    background-color: blueviolet;
+} */
+li {
+list-style: none;
+}
+img {
+    border-radius: 50%;
+    height: 250px;
+}
+
+.edit {
+    padding: 7px 14px;
+    background-color: #00b0ff;
+    border: none;
+    border-radius: 4px;
+    color: #fafafa;
+    transition: .2s ease; 
+    margin: 5px;
+}
+.edit:hover {
+    background-color: blue;
+}
+.delete {
+    padding: 7px 14px;
+    background-color: #00b0ff;
+    border: none;
+    border-radius: 4px;
+    color: #fafafa;
+    transition: .2s ease;
+    margin: 5px;
+}
+.delete:hover {
+    background-color: blue;
+}
+
+.todoImg {
+    width: 300px;
+    height:300px;
+    
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url("/images/jocelyn-morales-sUFVSodUHfo-unsplash.jpg");
+    }
+}

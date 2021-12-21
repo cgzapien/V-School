@@ -1,0 +1,74 @@
+@media only screen and (max-width: 900px){
+    .container {
+        /* grid-template-rows: repeat(10, auto); */
+        grid-template-rows: 150px 80px;
+    }
+    .zenBanner {
+        grid-row: 1/3;
+    }
+    #zen-garden-headline {
+       font-size: 40px;
+        margin-left: 300px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    #header2 {
+        margin-left: 300px;
+        font-size: 20px;
+    }
+    #white-circle {
+        left: 190px;
+        top: 25px;
+        height: 100px;
+    }
+
+    .viewDesigns {
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+    .design-box {
+        text-align: center;
+        margin: auto;
+        padding: 30px;
+        width: 50%;
+    }
+    .design-box > a {
+        color: white;
+        text-decoration: none;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+    .intro {
+        grid-row: 3/4;
+        grid-column: 1/3;
+    }
+    .benefits {
+        grid-row: 4/5;
+        grid-column: 1/3;
+    }
+    .requirements {
+        grid-row: 5/6;
+        grid-column: 1/3;
+    }
+    .zen-garden-book {
+        grid-row: 6/7;
+    }
+    .footerIcons {
+        grid-row: 7/8;
+    }
+    .authors {
+        grid-row: 8/9;
+        grid-column: 1/3;
+    }
+    .links {
+        grid-row: 9/10;
+        grid-column: 1/3;
+        background-image: url("http://www.csszengarden.com/214/bamboo.png");
+        background-attachment: fixed;
+        background-color: rgba(138, 188, 159, 0.5);
+    }
+   .icons {
+       width: 75%;
+       justify-content: space-between;
+   }
+}

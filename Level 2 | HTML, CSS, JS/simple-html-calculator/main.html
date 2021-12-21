@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Simple HTML Calcultor</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <h1 id="header">Rick and Morty's Whacky Calculator</h1>
+    <form name="calculator" class="htmlCalculator">
+        <div id="add">
+            <label for="first-number">Hurry up Morty! Punch in the number!</label>
+            <input type="number" style=" width: 50px" id="additionInputFirstNumber"/>
+            <label for="second-number">Now the second number!</label>
+            <input type="number" style=" width: 50px" id="additionInputSecondNumber"/>
+            <label for="addButton">click the add button, Morty!</label>
+            <button type="button" id="additionSubmitButton" style="width: 50px;">+</button> 
+        </div>
+        <br>
+        <div id="subtract">
+            <label for="first-number">Pickle Rick says input your first number</label>
+            <input type="number" style=" width: 50px" id="firstSubtractionNumber"/>
+            <label for="second-number">don't forget the second number</label>
+            <input type="number" style=" width: 50px" id="secondSubtractionNumber"/>
+            <label for="subtractButton">Subtract it! Morty</label>
+            <button type="button" id="subtractionButton" style="width: 50px;">-</button>
+        </div>
+        <br>
+        <div id="multiply">
+            <label for="first-number">Listen Morty punch your number in!</label>
+            <input type="number" style=" width: 50px" id="firstMultiplicationNumber"/>
+            <label for="second-number">Jesus Morty now the next number</label>
+            <input type="number" style=" width: 50px" id="secondMultiplicationNumber"/>
+            <label for="multiButton">Morty you have to click the button =></label>
+            <button type="button" id="multiplicationButton" style="width: 50px;">*</button>
+        </div>
+        <br>
+        <p id="answerBox">Answer Here</p>
+        <br>
+        <button type="button" id="clearButton">Clear</button>
+        
+    </form>      
+    <script src="/main.js"></script>
+</body>
+</html>

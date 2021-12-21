@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+html {
+    background-color: rgb(111, 190, 190);
+}
+
+#franceFlag {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+#franceBlueStripe {
+  background-color: #002495;
+  width: 33.3%;
+  height: 200px;
+  display: flex;
+}
+
+#franceWhiteStripe {
+    background-color: #FFFFFF;
+    width: 33.3%;
+    height: 200px;
+    display: flex;
+}
+
+#franceRedStripe {
+    background-color: #ED2938;
+    width: 33.3%;
+    height: 200px;
+    display: flex;
+}
+
+#germanyFlag {
+    height: 200px;
+    width: 333px;
+    margin-top: 50px;
+}
+
+#germanyBlackStripe {
+    background-color: #000000;
+    height: 33.3%;
+    width: 333px;
+}
+
+#germanyRedStripe {
+    background-color: #DE0002;
+    height: 33.3%;
+    width: 333px;
+}
+
+#germanyYellowStripe {
+    background-color: #FFCE00;
+    height: 33.3%;
+    width: 333px;
+}
+
+#MadagascarFlag {
+    background-color: #FFFFFF;
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    position: relative;
+    
+}
+
+#MadagascarRedStripe {
+    background-color: #FC3E32;
+    height: 50%;
+    width: 67%;
+    position: absolute;
+    left: 33.3%;
+
+}
+
+#MadagascarGreenStripe {
+    background-color: #007E39;
+    height: 50%;
+    width: 67%;
+    position: absolute;
+    top: 50%;
+    left: 33.3%;
+}
+
+#SwitzerlandFlag {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    background-color: #FF0002;    
+    position: relative;
+}
+
+#SwitzerlandCross {
+    background-color: #FFFFFF;
+    height: 150px;
+    width: 50px;
+    position: absolute;
+    left: 125px;
+    top: 70px;
+}
+
+#SwitzerlandCrossTwo {
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 50%;
+    position: absolute;
+    left: 75px;
+    top: 122px;
+}
+
+#SwedenFlag {
+    background-color: #0269a6;
+    height: 200px;
+    width: 320px;
+    margin-top: 50px;
+    position: relative;
+}
+#SwedenYellowStripeHor {
+    background-color: #FECC00;
+    height: 30px;
+    width: 320px;
+    top: 90px;
+    position: absolute;
+}
+#SwedenYellowStripeVert {
+    background-color: #FECC00;
+    content: "";
+    height: 200px;
+    width: 30px;
+    right: 200px;
+    position: absolute;
+}
+.GambiaFlag {
+    background-color: #FFFFFF;
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    position: relative;
+}
+.GambiaRedStripe {
+    background-color: #CE1127;
+    height: 33.3%;
+    width: 100%;
+    position: absolute;
+}
+.GambiaBlueStripe {
+    background-color: #0D1D8B;
+    height: 35px;
+    width: 100%;
+    position: absolute;
+    top: 81px; 
+}
+.GambiaGreenStripe {
+    background-color: #3b7827;
+    height: 33.3%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.JapanFlag {
+    background-color: #FFFFFF;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    margin-top: 50px;
+}
+.JapanCircle {
+    background-color: #BC022C;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 95px;
+    top: 50px;
+}
+.NigerFlag {
+    background-color: #FFFFFF;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    margin-top: 50px;
+}
+.NigerOrangeStripe {
+    background-color: #E15307;
+    height: 33.3%;
+    width: 100%;
+    position: absolute;
+}
+.NigerOrangeCircle {
+    background-color: #E15307;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 125px;
+    top: 75px;
+
+}
+.NigerGreenStripe {
+    background-color: #10AF2A;
+    height: 33.3%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    
+}

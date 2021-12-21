@@ -1,0 +1,69 @@
+{
+	"menu": [{
+		"appetizers": [{
+            "french fries": [{
+                "name": "French Fries",
+                "ingredients": ["potatoes", "salt", "pepper"],
+                "description": "A strip of potato typically cooked by being fried in deep fat."
+            }],
+            "jalapeno poppers": [{
+                "name": "Jalapeno Popper",
+                "ingredients": ["cheese", "Jalapeno Pepper", "bacon"],
+                "description": "A jalapeño pepper that has been stuffed with cheese and heated."
+            }]
+        }],
+		"cold sandwiches": [{
+            "blt":[{
+                "name": "BLT",
+                "ingredients": ["bacon", "tomato", "bread", "lettuce", "mayo"],
+                "description": "A type of sandwich, named for the initials of its primary ingredients, bacon, lettuce, and tomato."
+                
+            }],
+            "turkey":[{
+                "name": "Turkey Sandwich",
+                "ingredients": ["bread", "turkey", "lettuce", "tomato", "mayo", "mustrad", "onion"],
+                "description": "A type of sandwich where turkey slices of meat is the primary meat of choice"
+                
+            }]
+        }],
+		"hot sandwiches": [{
+            "philly cheesesteak":[{
+                "name": "Philly Cheesesteak Sandwich",
+                "ingredients": ["thin sliced ribeye steak", "caramelized onion", "bread", "lettuce", "mayo", "provolone cheese"],
+                "description": "The Philly steak is a combination of delicious,succulent thin layers of steak, smothered with fried onions and cheeseresting on a fresh locally-baked torpedo roll."
+                
+            }],
+            "pulled pork":[{
+                "name": "Pulled Pork Sandwich",
+                "ingredients": ["bread", "pulled pork", "cole slaw", "bbq sauce"],
+                "description": "BBQ shredded pork shoulder on a small bread roll topped with cole slaw."
+                
+            }]
+        }],
+		"desserts": [{
+            "churros":[{
+                "name": "Churros",
+                "ingredients": ["flour", "butter", "cinnamon sugar", "vanilla extract", "egg"],
+                "description": "A pastry resembling a doughnut or cruller and made from deep-fried unsweetened dough and sprinkled with sugar."
+                
+            }],
+            "strawberry ice cream": [{
+                "name": "Strawberry Ice Cream",
+                "ingredients": ["strawberries", "egg", "cream", "sugar"],
+                "description": "A flavor of ice cream made with strawberry or strawberry flavoring."
+            }]
+        }],
+		"drink": [{
+            "lemonade":[{
+                "name": "Lemonade",
+                "ingredients": ["lemons", "ice", "water", "sugar"],
+                "description": "A sweetened beverage made from lemons, sugar, and water."
+            }],
+            "ice tea": [{
+                "name": "Ice Tea",
+                "ingredients": ["black tea", "water", "ice", "sugar"],
+                "description": "A drink made from tea without milk but with sugar and sometimes fruit flavourings, drunk cold."
+            }]
+        }]
+	}]
+}

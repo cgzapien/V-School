@@ -1,0 +1,108 @@
+
+@media only screen and (min-width: 1400px) {
+    body {
+        background-image: url(/images/mariobackground.jpeg);
+        background-size: 80%;
+    } 
+    /* .marioPestControl {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }  */
+    .marioTitle {
+        display: flex;
+        justify-content: center;
+        height: 150px;                                  
+    }
+    #marioHeader {
+       color: red;
+       font-size: 100px;
+       font-family: 'Super Mario 256', sans-serif
+    }
+    #headerImage {
+        size: 40px;
+    }
+    .goombaContainer {
+        position: absolute;
+        right: 350px;
+        bottom: 350px;
+        font-size: 20px;
+    }
+    .goombaContainer:hover {
+        border: 2px solid black;
+    }
+    #goombaTitle {
+        text-align: center;
+    }
+    #goombaImg {
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+    /* #goombaImg:hover {
+        opacity: 0.5;
+    } */
+    .bobombContainer {
+        position: absolute;
+        left: 150px;
+        font-size: 20px;
+    }
+    .bobombContainer:hover {
+        border: 2px solid black;
+    }
+    #bobombTitle {
+        text-align: center;
+    }
+    #bobombImg {
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+    .cheepContainer {
+        position: absolute;
+        right: 850px;
+        bottom: 150px;
+        font-size: 20px;
+    }
+    .cheepContainer:hover {
+        border: 2px solid black;
+    }
+    #cheepTitle {
+        text-align: center;
+    }
+    #cheepImg {
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+    #totalContainer {
+        text-align: center;
+    }
+    #contactTitle {
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    #contactUs {
+        vertical-align: top;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        color: black;
+    }
+    #contactTitle {
+        display: flex;
+        justify-content: center;
+    }
+    .contactInfo {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 30px;
+    }
+    #totalContainer {
+        font-size: 30px;
+    }
+    #grandTotal {
+        color: yellow;
+    }
+}

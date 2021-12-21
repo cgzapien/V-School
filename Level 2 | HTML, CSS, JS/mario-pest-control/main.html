@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Mario's Pest Control</title>
+    <link href="http://fonts.cdnfonts.com/css/super-mario-256" rel="stylesheet">            
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+<div class="marioTitle">
+    <h1 id="marioHeader">Mario Pest Control</h1>
+    <img id="headerImage" src="/images/mario-removebg-preview.png">
+</div>
+<form name="marioPestControl" class="marioPestControl">
+<div class="goombaContainer">
+    <img id="goombaImg" src="/images/Goomba-removebg-preview.png">
+    <p id="goombaTitle">Goombas</p>
+    <ul>
+        <li>Name: Goomba</li>
+        <li>Price: 5 Coins</li>
+        <li><label>Total caught </label><input id="goombasCaught" name="goombasCaught" type="number"></li>
+    </ul>
+</div>
+<div class="bobombContainer">
+    <img id="bobombImg" src="/images/bob-omb-removebg-preview.png">
+    <p id="bobombTitle">Bob-omb</p>
+    <ul>
+        <li>Name: Bob-omb</li>
+        <li>Price: 7 Coins</li>
+        <li><label>Total caught </label><input id="bobombCaught" name="bobombCaught" type="number"></li>
+    </ul>
+</div>
+<div class="cheepContainer">
+    <img id="cheepImg" src="/images/cheep-cheep-removebg-preview.png">
+    <p id="cheepTitle">Cheep-Cheep</p>
+    <ul>
+        <li>Name: Cheep-Cheep</li>
+        <li>Price: 11 Coins</li>
+        <li><label>Total caught </label><input id="cheepCaught" name="cheepCaught" type="number"></li>
+    </ul>
+</div>
+<div id="totalContainer">
+    <button id="totalButton" type="submit">Calculate Total</button>
+    <button id="clearButton" type="button">Clear Total</button>
+    <br>
+    <div id="goombaTotal"></div>
+    <div id="bobombTotal"></div>
+    <div id="cheepTotal"></div>
+    <br>
+    <div id="grandTotal"></div>
+</div>
+<footer id="contactUs">
+    <p id="contactTitle">Contact Us</p>
+    <ul class="contactInfo">
+        <li id="email">email: mario@mariosworld.com</li>
+        <li id="websiteurl">website: mariopestcontrol.com</li>
+        <li id="address"> address: 4960 Rainbow Rd, Bowser City, Yoshi's Island</li>
+    </ul>
+</footer>
+</form>
+</body>
+<script src="/main.js"></script>
+</html>

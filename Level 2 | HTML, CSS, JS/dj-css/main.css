@@ -1,0 +1,85 @@
+body {
+    background-color: beige;
+}
+#header {
+    text-align: center;
+    font-size: 100px;
+}
+.boxcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 30px;
+}
+#box-one {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transition: background-color 1s linear 1.5s;
+}
+#box-one:hover {
+    background-color: lightblue;
+    width: 400px;
+}
+#box-two {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transition: background-color 2s ease-in 2s, width 2s linear, opacity 1s linear;
+}
+#box-two:hover {
+    opacity: 0.7;
+    background-color: maroon;
+    height: 400px;
+}
+#box-three {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    transition: background-color 2s ease-in-out 2s, width ease-in 2s , height 500ms ease-out
+}
+#box-three:hover {
+    background-color: mediumseagreen;
+    height: 400px;
+    width: 400px;
+}
+.boxContainerTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+#box-four {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    transition: border-radius 1s linear 1s, background-color 1s linear 1s;
+}
+#box-four:hover {
+    background-color: coral;
+    border-radius: 50px;
+     
+}
+#box-five {
+    height: 200px;
+    width: 200px;    
+    background-color: purple;
+    transition: background-color 1s linear 1s, height 500ms ease-in-out 500ms, width 500ms ease-in-out 500ms, border 1s linear 1s;
+}
+#box-five:hover {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid violet;
+    
+}
+#box-six {
+    height: 200px;
+    width: 200px;    
+    background-color: brown;
+    transition: box-shadow 1s 1s;
+}
+#box-six:hover {
+    box-shadow: 10px 10px black;
+}

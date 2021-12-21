@@ -1,0 +1,39 @@
+body {
+    background: url(/images/rmbackground.jpeg);
+    background-size: 100%;
+}
+#header {
+    text-align: center;
+    font-size: 75px;
+    color: #97ce4c;
+    text-shadow: 4px 4px black;
+}
+.htmlCalculator {
+    text-align: center;
+    line-height: 50%;
+}
+/* input {
+    color: #006400;
+} */
+#answerBox {
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    line-height: 150px;
+    font-size: 40px;
+}    
+#add {
+    font-size: 35px;
+    color: red;
+    margin-bottom: 30px;
+}
+#subtract {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+#multiply {
+    font-size: 35px;
+    margin-bottom: 30px;
+}

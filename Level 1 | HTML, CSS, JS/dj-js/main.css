@@ -1,0 +1,20 @@
+* {
+    background-color: lemonchiffon;
+}
+header {
+    font-size: 100px;
+    color: blue;
+    text-align: center;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px;
+    
+  }
+  #square {
+      width: 250px;
+      height: 250px;
+      background-color: black;
+  }

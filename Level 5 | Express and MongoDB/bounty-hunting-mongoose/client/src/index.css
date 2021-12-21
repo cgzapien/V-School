@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-image: url("https://cdn.wallpapersafari.com/6/37/ndqkul.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+.bountyHeader {
+  background-image: url("https://wallpaperaccess.com/full/353667.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+
+}
+.bountyForm {
+  border: 1px solid;
+  height: 150px;
+  text-align: center;
+  color: yellow;
+}
+.wantedPoster {
+  background-image: url("https://i.imgur.com/Y9Tiq8a.jpg");
+  border: 1px solid yellow;
+  background-size: cover;
+  height: 350px;
+  width: 500px;
+  text-align: center;
+  margin: 15px 0;
+  color: #000000;
+}
+.deleteBtn {
+  background-color: #000000;
+  color: red;
+  padding: 10px;
+  font-size: 20px;
+}
+.editBtn {
+  background-color: #000000;
+  color: blue;
+  padding: 10px;
+  font-size: 20px;
+  
+}
+.bountyList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.submitBtn {
+  background-color: #000000;
+  color: yellow;
+  padding: 10px;
+}
+button {
+  border-radius: 4px;
+}
+@media only screen and (max-width: 1500px) {
+  .wantedPoster {
+    width: 300px;
+    height: 400px;
+  }
+}

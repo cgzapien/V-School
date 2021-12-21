@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.header {
+  text-align: center;
+  color: white;
+}
+.boxGrid {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 300px 300px;
+  justify-content: center;
+}
+.boxes {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

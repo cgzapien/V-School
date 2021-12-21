@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>AXIOS TODO List</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <h1 class="todoHeader">TODO List</h1>
+        <form name="todoForm" title="todoList" class="todoForm"> 
+
+            <div name="todoFormContainer" title="todoFormContainer" class="todoFormContainer">
+                    <input type="text" name="title" class="formInput" id="title" placeholder="Item to do">
+                    <input type="number" step="0.01" name="price" class="formInput" id="price" placeholder="How much is it gonna cost me?">
+                    <input type="text" name="description" class="formInput" id="description" placeholder="Description">
+                    <input type="text" name="imgUrl" class="formInput" id="imgUrl" placeholder="Image URL">
+                    <button type="submit" name="addItem" class="formInput" id="addButton">ADD</button>
+               
+            </div>
+        </form>
+        <ul class="newTodoList" id="newTodoList" name="newTodoList">
+            <!-- <li class="newList" id="newList">
+                <h1 id="newItemTitle">corn</h1>
+                <img id="newItemImg" src="https://media.healthyfood.com/wp-content/uploads/2017/03/In_season_February_Sweetcorn-1-500x457.jpg">
+                <h2 id="newItemPrice">$.50</h2>
+                <h2 id="newItemDescription">corn</h2>
+                <label for="checkbox">Completed</label>
+                <input type="checkbox" id="checkbox">
+                <button type="button" name="edit" id="edit">Edit</button>
+                <button type="button" name="delete" id="delete">Delete</button>
+
+            </li> -->
+
+
+        </ul> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+        <script src="/main.js"></script>
+    </body>
+</html>

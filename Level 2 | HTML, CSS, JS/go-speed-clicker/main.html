@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Go Speed Clicker</title>
+        <link rel="stylesheet" href="/main.css">
+    </head>
+    <body>
+        <!-- <video autoplay muted loop id="racingIntro">
+            <source src="/graphics/racingintro.mp4" type="video/mp4">
+          </video> -->
+        <div class="headerContainer">
+            <img src="/graphics/checkerflag.jpg" id="checkeredFlagLeftSide">
+            <h1 id="header">Speed Clicker!</h1>
+            <img src="/graphics/checkerflag.jpg" id="checkeredFlagRightSide">
+        </div>
+        <br>
+        <div class="clickerContainer">
+            <button type="button" id="click">Click as fast as you can</button>
+            <p id="clickCounts"></p>
+            <br>
+            <button type="button" id="previouslySessionClickStats">Previous Session Click Stats</button>
+            <p id="timesClickedPreviously"></p>
+            <div class="stopwatch">
+               <span id="countdownText">Countdown: </span>
+               <span id="countdown"></span> 
+            </div>
+        </div>
+        
+    </body>
+    <script src="main.js"></script>
+</html>
