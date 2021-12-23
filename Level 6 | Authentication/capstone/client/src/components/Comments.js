@@ -67,10 +67,6 @@ export default function Comments(props){
         <></>
         :
         commentsOnCommentsList.map(comment => <CommentOnComment key={comment._id} {...comment}/>)
-        // commentsOnCommentsList.map(comment => <Typography key={comment._id} style={{marginLeft: "25px", marginBottom: '5px'}}>
-        //   {comment.commentOnComment} - {new Date(comment.dateCreated).toLocaleDateString()}
-        //   </Typography>
-        // )
       }
       <Divider/>
       {commentReply ? 

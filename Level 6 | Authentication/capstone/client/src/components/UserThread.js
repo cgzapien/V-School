@@ -12,7 +12,6 @@ import { DataGrid } from '@mui/x-data-grid';
 export default function UserThread(props){
   const { deleteThread } = useContext(AppContext)
   const {threadName, topic, user, _id, dateCreated} = props
-  console.log('props: ', props);
   const Item = styled(Paper)(({ theme }) => ({
     ...theme.typography.body2,
     padding: theme.spacing(1),

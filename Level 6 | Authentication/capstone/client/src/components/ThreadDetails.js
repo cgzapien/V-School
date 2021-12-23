@@ -75,7 +75,7 @@ export default function ThreadDetails(){
     getComments()
   }, [])
   return (
-    <div style={{marginLeft: "200px"}}>
+    <div style={{marginLeft: "10px"}}>
       <Typography variant="h5"><u>Title: </u>{threadName}</Typography>
       <Typography variant="h5"><u>Topic: </u>{topic}</Typography>
       <Button onClick={toggleComment}><Typography variant="caption">-comment-</Typography></Button>

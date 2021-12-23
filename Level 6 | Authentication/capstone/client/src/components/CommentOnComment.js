@@ -4,7 +4,6 @@ import PersonIcon from '@mui/icons-material/Person';
 import axios from "axios";
 
 export default function CommentOnComment(props){
-  console.log('props: ', props);
   const {commentOnComment, user, _id, dateCreated } = props
   const [username, setUsername] = useState("")
   const date = new Date(dateCreated).toLocaleDateString()

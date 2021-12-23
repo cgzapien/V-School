@@ -1,8 +1,10 @@
 import React, {useState, useContext} from "react";
 import { Box, Button, FormLabel, Grid, TextField, Typography } from "@mui/material";
+import { styled } from '@mui/material/styles';
 import FormControlLabel from '@mui/material/FormControlLabel'
 import { AppContext } from "../Context/AppProvider";
 import axios from "axios";
+import { ClassNames } from "@emotion/react";
 
 export default function Profile(){
   const {user: { membersince, _id} } = useContext(AppContext)
@@ -43,13 +45,17 @@ export default function Profile(){
       })
       .catch(err => console.log(err))
   }
+  const labelPos = {
+    postion: "relative",
+    top: "15px"
+  }
   return (
-    <Grid style={{margin: "100px 500px", textAlign: "center"}}>
+    <Grid style={{textAlign: "center", height: "100vh"}} >
       <Box component="form" onSubmit={handleSubmit} sx={{padding: "20px"}}>
         <Typography><u>Member since: {monthAndYear}</u></Typography>
         <br/>
         {/* <Typography>username:</Typography> */}
-        <FormLabel sx={{marginTop: "5px"}}>username:</FormLabel>
+        <FormLabel style={labelPos}>username:</FormLabel>
         <TextField
           placeholder="username"
           //label="username"
@@ -59,7 +65,7 @@ export default function Profile(){
           style={{marginBottom: "10px", marginLeft: "15px"}}
         />
         <br/>
-        <FormLabel>First Name:</FormLabel>
+        <FormLabel style={labelPos}>First Name:</FormLabel>
         <TextField
           placeholder="first name"
           //label="first name"
@@ -69,7 +75,7 @@ export default function Profile(){
           style={{marginBottom: "10px", marginLeft: "6px"}}
         />
         <br/>
-        <FormLabel>Last name:</FormLabel>
+        <FormLabel style={labelPos}>Last name:</FormLabel>
         <TextField
           placeholder="last name"
           //label="last name"
@@ -79,7 +85,7 @@ export default function Profile(){
           style={{marginBottom: "10px", marginLeft: "10px"}}
         />
         <br/>
-        <FormLabel style={{margin: "auto"}}>Email:</FormLabel>
+        <FormLabel style={labelPos}>Email:</FormLabel>
         <TextField
           type="email"
           placeholder="email"
@@ -90,7 +96,7 @@ export default function Profile(){
           style={{marginLeft: "45px"}}
         />
         <br/>
-        <Button type="submit">
+        <Button sx={{marginTop: 2}} type="submit">
           Save profile
         </Button>
       </Box>

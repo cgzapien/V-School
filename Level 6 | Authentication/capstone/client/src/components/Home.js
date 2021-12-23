@@ -8,10 +8,8 @@ import tattoogun from "/Users/zapien/Desktop/VSchool/Level 6 | Authentication/ca
 export default function Home(){
   const {user: {username}, userThreads, addThread} = useContext(AppContext)
   return (
-    <div style={{display: "relative", marginLeft: "200px", marginTop: "50px"}}>
-      <Typography variant="body1">Welcome to Inked, a tattoo artist community. Where you can interact with other artist relating to the
-      tattoo world. Here you can post threads about certain topics and other users are able to comment on them. Our goal is to provide a 
-      sense of community to tattoo artist across the world.</Typography>
+    <div style={{display: "relative", marginLeft: "10px", height: "100vh"}}>
+      <Typography sx={{marginTop: "25px"}} variant="body1">Welcome to Inked, a tattoo artist community. Where you can interact with other artist relating to the tattoo world. Here you can post threads about certain topics and other users are able to comment on them. Our goal is to provide a sense of community to tattoo artist across the world.</Typography>
       <NewThreadForm addThread={addThread}/>
       <Typography>Threads you've created</Typography>
       {userThreads !== undefined ? 
