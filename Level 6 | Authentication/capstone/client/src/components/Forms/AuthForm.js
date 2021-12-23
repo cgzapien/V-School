@@ -17,9 +17,7 @@ export default function AuthForm(props){
     }, 
     submit,
     errmsg
-  } = props
-
-  
+  } = props  
   return (
     <>
       <Grid component="main" container sx={{height: "100vh"}}>

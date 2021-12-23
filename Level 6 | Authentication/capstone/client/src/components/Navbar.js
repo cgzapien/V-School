@@ -14,11 +14,10 @@ import HomeIcon from '@mui/icons-material/Home';
 import CreateIcon from '@mui/icons-material/Create';
 import LogoutIcon from '@mui/icons-material/Logout';
 import { AppContext } from "../Context/AppProvider";
-import image from "/Users/zapien/Desktop/VSchool/Level 6 | Authentication/capstone/client/src/media/tattooing.jpg"
+
 
 export default function Navbar(){
   const {user: {username}, logout} = useContext(AppContext)
-  const drawerWidth = 180
   return (
     <div>
       <AppBar position="static" color="inherit" sx={{display: "inline"}}>
@@ -30,9 +29,7 @@ export default function Navbar(){
             <ListItem button ><ListItemIcon><PersonIcon style={{ fill: '#ffff' }}/></ListItemIcon><Link color="inherit" underline="none" component={RouterLink} to="/profile">Profile</Link></ListItem>
             <ListItem button onClick={logout}><ListItemIcon><LogoutIcon style={{ fill: '#ffff' }}/></ListItemIcon>Logout</ListItem>
           </List>
-
         </Box>
-
       </AppBar>
   </div>
   )
